@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='UTF-8' lang='zh-cn' />
+	<title>orange模块加载器</title>
+</head>
+<body>
+	<script type="text/javascript">
+		document.write('<script src="avalon.js"><\/script>');
+		document.write('<script src="js/lib/orange.js"><\/script>');
+		document.write('<script src="http://XXX.com/jquery.js"><\/script>');
+		document.write('<script src="http://XXX.com/script/jquery-2.js"><\/script>');
+	</script>
+	<script type="text/javascript">
+		require(["m1","m2"],function(h){
+
+		});
+	</script>
+</body>
+</html>
